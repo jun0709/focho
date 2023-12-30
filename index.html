@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="header_w">
+                <div class="header_logo">
+                    <a href="./index.html"></a>
+                </div>
+                <div class="search_box">
+                    <input class="search" type="text" placeholder="검색어를 입력하시오">
+                    <a href="./search.html">
+                        <div class="search_icon"></div>
+                    </a>
+                </div>
+                <ul class="user_box">
+                    <li>
+                        <a  class="user_icon_a" href="./login.html">
+                            <div class="user_icon_img user_icon_img1"></div>
+                            <div class="user_icon_p1">로그인</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a  class="user_icon_a" href="#">
+                            <div class="user_icon_img user_icon_img2"></div>
+                            <div class="user_icon_p2">로그아웃</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a  class="user_icon_a" href="./join.html">
+                            <div class="user_icon_img user_icon_img3"></div>
+                            <div class="user_icon_p2">회원가입</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a  class="user_icon_a" href="./mypage.html">
+                            <div class="user_icon_img user_icon_img4"></div>
+                            <div class="user_icon_p2">마이페이지</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main_banner">
+            <img src="./img/main_banner.png" alt="메인베너">
+        </div>
+        <div class="nav">
+            <h2>Menu</h2>
+            <div class="h2_border_bottom"></div>
+            <ul>
+                <li>
+                    <a href="./product.html">
+                        <img src="./img/product_list/product_korean.png" alt="">
+                        <p>한식</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./product.html">
+                        <img src="./img/product_list/product_china.png" alt="">
+                        <p>중식</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./product.html">
+                        <img src="./img/product_list/product_western.png" alt="">
+                        <p>양식</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./product.html">
+                        <img src="./img/product_list/product_japan.png" alt="">
+                        <p>일식</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./product.html">
+                        <img src="./img/product_list/product_based.png" alt="">
+                        <p>분식</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./product.html">
+                        <img src="./img/product_list/product_asian.png" alt="">
+                        <p>아시안</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./product.html">
+                        <img src="./img/product_list/product_fastfood.png" alt="">
+                        <p>패스트푸드</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./product.html">
+                        <img src="./img/product_list/product_fresh.png" alt="">
+                        <p>프레시</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./product.html">
+                        <img src="./img/product_list/product_desert.png" alt="">
+                        <p>카페·디저트</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container"></div>
+        <div class="footer">
+            <div class="footer_outer">
+                <div class="footer_left">
+                    <h5>(주)FOCHO</h5> 
+                    <h5>소재지 : 서울특별시 강남구 테헤란로 14길 6</h5>
+                    <h5>이메일 문의 : aassdf12@naver.com</h5>
+                    <h5>전화 문의 : 02-1234-5678</h5>
+                </div>
+                <div class="footer_right">
+                    <h5>팀 명 : 99즈</h5>
+                    <h5>팀 장 : 성준혁</h5>
+                    <h5>팀 원 : 김민기 , 송해성 , 이도희</h5>
+                </div>
+            </div>
+        </div>
+        <div class="top_btn">
+            <a href="#"></a>
+        </div>
+        <div class="roulette_btn"></div>
+        <div class="roulette_pan">
+            <div class="roulette">
+                <canvas width="400px" height="400px"></canvas>
+                <div class="roulette_start_btn">
+                    <span class="roulette_active_btn" onclick="rotate()">시작</span>
+                </div>
+                <div class="roulette_add_btn">
+                    <input type="text" id="menu_add">
+                    <span class="roulette_active_btn" onclick="add()">추가</span>
+                </div>
+            </div>
+            <div class="roulette_close_btn"></div>
+        </div>
+    </div>
+<script src="./js/common.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>

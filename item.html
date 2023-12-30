@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/item.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    
+</head>
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="header_w">
+                <div class="header_logo">
+                    <a href="./index.html"></a>
+                </div>
+                <div class="search_box">
+                    <input class="search" type="text" placeholder="검색어를 입력하시오">
+                    <a href="./search.html">
+                        <div class="search_icon"></div>
+                    </a>
+                </div>
+                <ul class="user_box">
+                    <li>
+                        <a  class="user_icon_a" href="./login.html">
+                            <div class="user_icon_img user_icon_img1"></div>
+                            <div class="user_icon_p1">로그인</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a  class="user_icon_a" href="#">
+                            <div class="user_icon_img user_icon_img2"></div>
+                            <div class="user_icon_p2">로그아웃</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a  class="user_icon_a" href="./join.html">
+                            <div class="user_icon_img user_icon_img3"></div>
+                            <div class="user_icon_p2">회원가입</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a  class="user_icon_a" href="./mypage.html">
+                            <div class="user_icon_img user_icon_img4"></div>
+                            <div class="user_icon_p2">마이페이지</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="main_banner">
+                <div class="main_banner_black1"></div>
+                <div class="main_banner_black2"></div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/item_ex1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/item_ex2.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/item_ex3.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/item_ex4.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/item_ex1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/item_ex2.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/item_ex3.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/item_ex4.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev" style="left: var(--swiper-navigation-sides-offset,20%);"></div>
+                    <div class="swiper-button-next" style="right: var(--swiper-navigation-sides-offset,20%);"></div>
+                </div>
+            </div>
+            <div class="item_info">
+                <h1>새벽집 청담점</h1>
+                <ul>
+                   <li class="item_info_li">
+                        <div class="item_info_open_time">
+                            <h1>영업시간</h1>
+                            <h2>브레이크 타임</h2>
+                            <div class="open_time_minus">-</div>
+                            <div class="open_time">
+                            </div>
+                        </div>
+                        <div class="item_info_inf">
+                            <span>영업시간</span>
+                            <p>00:00 ~ 12:00</p>
+                            <div class="item_info_plus">+</div>
+                        </div>
+                        <div class="item_info_inf">
+                            <span>주차여부</span>
+                            <p>가능</p>
+                        </div>
+                        <div class="item_info_inf">
+                            <span>해시태그</span>
+                            <p>#분류 #음식분류 #목적 #음식명</p>
+                            <div class="detail_btn">+</div>
+                            <div class="detail_pan">#혼밥 #데이트 #분위기좋은 #서민적인 #이색적인 #가성비좋은 #건강한 #회식 #외식</div>
+                        </div>
+                        <div class="item_info_inf">
+                            <span>상세주소</span>
+                            <p>서울시 강남구 상세 주소</p>
+                            <div class="detail_btn">+</div>
+                            <div class="detail_pan">엄청엄청엄청엄청엄청엄청엄청엄청엄청엄청엄청엄청엄청엄청엄청엄청엄청엄청긴주소</div>
+                        </div>
+                        <div class="item_info_inf">
+                            <span>전화번호</span>
+                            <p>00-0000-0000</p>
+                        </div>
+                    </li>
+                    <li class="item_menu_li">
+                        <div class="item_info_menu_plus">자세히보기</div>
+                    </li>
+                    <li class="item_map_li">
+                        <div class="item_place">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25321.790315954357!2d127.02563834808345!3d37.502639657643456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4637d1e1829%3A0x6673bde10d951fe7!2z7IOI67K97KeRIOyyreuLtOuPmeygkA!5e0!3m2!1sko!2skr!4v1699941868368!5m2!1sko!2skr" width="400" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </li>
+                </ul>
+                <div class="reveiw">
+                    <div class="star_mark_num">
+                        <h2>REVIEW</h2>
+                        <div class="star_mark">(20)</div>
+                        <div class="review_write_btn">
+                            <span>리뷰 작성</span>
+                            <div class="review_write_icon"></div>
+                            
+                        </div>
+                        <div class="star_heart_icon">
+                            <a href="#"><!-- 로그인 안했으면 로그인페이지 -->
+                                <div class="review_heart_num">
+                                    <img src="./img/icon/icon_heart.jpg" alt="">
+                                    <p>140</p>
+                                </div>
+                            </a>
+                            <img src="./img/icon/star.png" alt="">
+                            <p>4.4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveiw_bottom_border"></div>
+                <div class="review_content">
+                    <div class="review_content_txt review_txt_new display_none">
+                        <div class="review_score">
+                          
+                            <input type="radio" name="rating" value="5" id="rate1">
+                            <label for="rate1">⭐</label>
+                            <input type="radio" name="rating" value="4" id="rate2"><label for="rate2">⭐</label>
+                            <input type="radio" name="rating" value="3" id="rate3"><label for="rate3">⭐</label>
+                            <input type="radio" name="rating" value="2" id="rate4"><label for="rate4">⭐</label>
+                            <input type="radio" name="rating" value="1" id="rate5"><label for="rate5">⭐</label>
+                        </div>
+                        <textarea class="review_user_write"></textarea>
+                        <div class="review_user_img">
+                            <input type="file" id="file1" multiple placeholder="이미지 선택">
+                        </div>
+                        <div class="sub_but">
+                            <input type="submit" id="submit1" value="작성">
+                            <input type="button" id="button1" value="취소" class="review_write_del">
+                        </div>
+                    </div>
+                    <div class="review_content_txt">
+                        <div class="nick_date">
+                            <div class="review_nickname">닉네임입니다</div>
+                            <div class="creation_date">2023년 11월14일</div>
+                            <div class="review_delete_change">
+                                <a href="#"><div class="review_change">수정</div></a>
+                                <a href="#"><div class="review_delete">삭제</div></a>
+                            </div>
+                        </div>
+                        <div class="review_star">
+                            <img src="./img/icon/star.png" alt="">
+                            <img src="./img/icon/star.png" alt="">
+                            <img src="./img/icon/star.png" alt="">
+                            <img src="./img/icon/star.png" alt="">
+                            <img src="./img/icon/star.png" alt="">
+                        </div>
+                        <div class="review_num1">
+                            <div class="review_create">정말 맛있네요. 여기오면 꼭 먹어야겠네요 근데 너무 비싸요</div>
+                            <div class="review_create_img">
+                                <img src="./img/Ex1.jpg" alt="">
+                                <img src="./img/EX2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review_content_txt">
+                        <div class="nick_date">
+                            <div class="review_nickname">99즈</div>
+                            <div class="creation_date">2023년 11월15일</div>
+                            <div class="review_delete_change">
+                                <a href="#"><div class="review_change">수정</div></a>
+                                <a href="#"><div class="review_delete">삭제</div></a>
+                            </div>
+                        </div>
+                        <div class="review_star">
+                            <img src="./img/icon/star.png" alt="">
+                            <img src="./img/icon/star.png" alt="">
+                            <img src="./img/icon/star.png" alt="">
+                            <img src="./img/icon/star.png" alt="">
+                            <img src="./img/icon/star.png" alt="">
+                        </div>
+                        <div class="review_num1">
+                            <div class="review_create">맛있어요. 성공하면 다시 올게요~ 찐맛집입니다. 근데요 너무 비싸서 날 잡고 플렉스하러 와야겠어요 맛은 보장은 되지만 자신의 통장은 보장이 안되네요 맛은 보장되어서 별점 5개 드리지만 가격이 별 1개 입니다. 성공하신 분들 꼭 와보세요 엄청난 맛집입니다. 저는 한번만 왔지만 돈만 있었으면.. 통장에 돈이 가득했으면 꼭 자주 올겁니다. 연예인들도 많이 오는 새벽집 새벽에 안가도 됩니다. 24시간 영업중이여서 정말 좋습니다. 한식집 넘버원!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</div>
+                            <div class="review_create_img">
+                                <img src="./img/EX3.jpg" alt="">
+                                <img src="./img/EX2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review_content_none">
+                        <div class="review_none">
+                            <h3>리뷰를 작성해주세요</h3>
+                            <div class="review_icon"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer_outer">
+                <div class="footer_left">
+                    <h5>(주)FOCHO</h5> 
+                    <h5>소재지 : 서울특별시 강남구 테헤란로 14길 6</h5>
+                    <h5>이메일 문의 : aassdf12@naver.com</h5>
+                    <h5>전화 문의 : 02-1234-5678</h5>
+                </div>
+                <div class="footer_right">
+                    <h5>팀 명 : 99즈</h5>
+                    <h5>팀 장 : 성준혁</h5>
+                    <h5>팀 원 : 김민기 , 송해성 , 이도희</h5>
+                </div>
+            </div>
+        </div>
+        <div class="top_btn">
+            <a href="#"></a>
+        </div>
+        <div class="item_menu_plus">
+            <div class="item_menu_list">
+                <img src="./img/item_menu.png" alt="메뉴판">
+                <p>-</p>
+                <div class="item_info_all_menu"></div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    
+</script>
+
+<script src="./js/common.js"></script>
+<script src="./js/item.js"></script>
+</body>
+</html>

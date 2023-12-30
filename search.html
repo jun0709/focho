@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="header_w">
+                <div class="header_logo">
+                    <a href="./index.html"></a>
+                </div>
+                <div class="search_box">
+                    <input class="search" type="text" placeholder="검색어를 입력하시오">
+                    <a href="./search.html">
+                        <div class="search_icon"></div>
+                    </a>
+                </div>
+                <ul class="user_box">
+                    <li>
+                        <a  class="user_icon_a" href="./login.html">
+                            <div class="user_icon_img user_icon_img1"></div>
+                            <div class="user_icon_p1">로그인</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a  class="user_icon_a" href="#">
+                            <div class="user_icon_img user_icon_img2"></div>
+                            <div class="user_icon_p2">로그아웃</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a  class="user_icon_a" href="./join.html">
+                            <div class="user_icon_img user_icon_img3"></div>
+                            <div class="user_icon_p2">회원가입</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a  class="user_icon_a" href="./mypage.html">
+                            <div class="user_icon_img user_icon_img4"></div>
+                            <div class="user_icon_p2">마이페이지</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main_w">
+            <div class="top_box">
+                <div class="top_box_inner">
+                    <select name="" id="" class="select">
+                        <option value="">신사동</option>
+                        <option value="">압구정동</option>
+                        <option value="">청담동</option>
+                        <option value="">논현동</option>
+                        <option value="">역삼동</option>
+                        <option value="">대치동</option>
+                        <option value="">도곡동</option>
+                        <option value="">개포동</option>
+                        <option value="">일원동</option>
+                    </select>
+
+                    <div class="stic"></div>
+                    <select name="" id="" class="select">
+                        <option value="">한식</option>
+                        <option value="">중식</option>
+                        <option value="">일식</option>
+                        <option value="">양식</option>
+                        <option value="">분식</option>
+                        <option value="">아시안</option>
+                        <option value="">중남미</option>
+                        <option value="">패스트</option>
+                        <option value="">샐러드</option>
+                    </select>
+                    
+                    <div class="stic"></div>
+                    <select name="" id="" class="select">
+                        <option value="">혼밥</option>
+                        <option value="">데이트</option>
+                        <option value="">분위기좋은</option>
+                        <option value="">분위기좋은</option>
+                        <option value="">면요리</option>
+                        <option value="">고기</option>
+                        <option value="">해장국</option>
+                        <option value="">술안주</option>
+                        <option value="">다이어트</option>
+                    </select>
+                </div>
+            </div>
+            <div class="left_sec">
+                <div class="left_sec_w">
+                    <div class="left_sec_detail">
+                        상세조건
+                    </div>
+                    <div class="left_sec_hr"></div>
+                    <div class="left_sec_box">
+                        <span class="left_sec_box_p">지역</span>
+                        <div class="left_sec_box_input">
+                            <input type="checkbox" name="" id="re_chk1"><label for="re_chk1">신사동</label>
+                            <input type="checkbox" name="" id="re_chk2"><label for="re_chk2">압구정동</label><br>
+                            <input type="checkbox" name="" id="re_chk3"><label for="re_chk3">청담동</label>
+                            <input type="checkbox" name="" id="re_chk4"><label for="re_chk4">논현동</label><br>
+                            <input type="checkbox" name="" id="re_chk5"><label for="re_chk5">역삼동</label>
+                            <input type="checkbox" name="" id="re_chk6"><label for="re_chk6">대치동</label><br>
+                            <input type="checkbox" name="" id="re_chk7"><label for="re_chk7">도곡동</label>
+                            <input type="checkbox" name="" id="re_chk8"><label for="re_chk8">개포동</label><br>
+                            <input type="checkbox" name="" id="re_chk9"><label for="re_chk9">일원동</label>
+                        </div>
+                    </div>
+                    <div class="left_sec_hr"></div>
+                    <div class="left_sec_box">
+                        <span class="left_sec_box_p">종류</span>
+                        <div class="left_sec_box_input">
+                            <input type="checkbox" name="" id="type_chk1"><label for="type_chk1">한식</label>
+                            <input type="checkbox" name="" id="type_chk2"><label for="type_chk2">중식</label><br>
+                            <input type="checkbox" name="" id="type_chk3"><label for="type_chk3">일식</label>
+                            <input type="checkbox" name="" id="type_chk4"><label for="type_chk4">양식</label><br>
+                            <input type="checkbox" name="" id="type_chk5"><label for="type_chk5">분식</label>
+                            <input type="checkbox" name="" id="type_chk6"><label for="type_chk6">아시안</label><br>
+                            <input type="checkbox" name="" id="type_chk7"><label for="type_chk7">중남미</label>
+                            <input type="checkbox" name="" id="type_chk8"><label for="type_chk8">패스트</label><br>
+                            <input type="checkbox" name="" id="type_chk9"><label for="type_chk9">샐러드</label>
+                        </div>
+                    </div>
+                    <div class="left_sec_hr"></div>
+                    <div class="left_sec_box">
+                        <span class="left_sec_box_p">태그</span>
+                        <div class="left_sec_box_input">
+                            <input type="checkbox" name="" id="tege_chk1"><label for="tege_chk1">혼밥</label>
+                            <input type="checkbox" name="" id="tege_chk2"><label for="tege_chk2">데이트</label><br>
+                            <input type="checkbox" name="" id="tege_chk3"><label for="tege_chk3">분위기좋은</label>
+                            <input type="checkbox" name="" id="tege_chk4"><label for="tege_chk4">서민적인</label><br>
+                            <input type="checkbox" name="" id="tege_chk5"><label for="tege_chk5">이색적인</label>
+                            <input type="checkbox" name="" id="tege_chk6"><label for="tege_chk6">가성비좋은</label><br>
+                            <input type="checkbox" name="" id="tege_chk7"><label for="tege_chk7">건강한</label>
+                            <input type="checkbox" name="" id="tege_chk8"><label for="tege_chk8">회식</label><br>
+                            <input type="checkbox" name="" id="tege_chk9"><label for="tege_chk9">외식</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right_sec">
+                <div class="teg_box"></div>
+                <div class="restaurant_list">
+
+                    <ul class="search_ul"></ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer_outer">
+                <div class="footer_left">
+                    <h5>(주)FOCHO</h5> 
+                    <h5>소재지 : 서울특별시 강남구 테헤란로 14길 6</h5>
+                    <h5>이메일 문의 : aassdf12@naver.com</h5>
+                    <h5>전화 문의 : 02-1234-5678</h5>
+                </div>
+                <div class="footer_right">
+                    <h5>팀 명 : 99즈</h5>
+                    <h5>팀 장 : 성준혁</h5>
+                    <h5>팀 원 : 김민기 , 송해성 , 이도희</h5>
+                </div>
+            </div>
+        </div>
+        <div class="top_btn">
+            <a href="#"></a>
+        </div>
+    </div>
+    
+    <script src="./js/search.js"></script>
+    <script src="./js/common.js"></script>
+</body>
+
+</html>
