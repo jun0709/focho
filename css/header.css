@@ -107,9 +107,9 @@
     margin-left: 10px;
 }
 
-/* .user_box > li:nth-child(2n) {
+.user_box > li:nth-child(2n) {
     display: none;
-} */
+}
 
 @media screen and (max-width: 1200px){
     .header_w {
